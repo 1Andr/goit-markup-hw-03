@@ -68,6 +68,7 @@ button {
 .header-container {
   display: flex;
   align-items: center;
+  border: 1px solid #ececec;
 }
 
 .header-nav {
@@ -83,6 +84,14 @@ button {
   align-items: center;
 }
 
+.header-nav-item {
+  margin-right: 50px;
+}
+
+.header-nav-list :last-child {
+  margin-right: 0;
+}
+
 .header-list-contacts {
   display: flex;
   margin-left: auto;
@@ -95,6 +104,8 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-logo-studio {
@@ -104,6 +115,8 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-nav-link {
@@ -112,6 +125,8 @@ button {
   line-height: 1, 14;
   letter-spacing: 0.02em;
   color: #212121;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-nav-link:hover,
@@ -125,6 +140,8 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-mail:hover,
@@ -138,6 +155,9 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-left: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-tel:hover,
