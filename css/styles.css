@@ -32,10 +32,14 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .container {
-  width: 1200;
-  padding-left: 15;
-  padding-right: 15;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -168,7 +172,9 @@ button {
 /*------------------HERO-----------------*/
 
 .hero {
-  background: #2f303a;
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -191,6 +197,9 @@ button {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .hero-btn:hover,
@@ -199,6 +208,22 @@ button {
 }
 
 /*----------------STRENGTHS--------------*/
+.strengths {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.strengths-list {
+  display: flex;
+}
+
+.strengths-item {
+  margin-right: 30px;
+}
+
+.strengths-list :last-child {
+  margin-right: 0;
+}
 
 .strengths-subtitle {
   font-weight: 700;
@@ -217,6 +242,9 @@ button {
 }
 
 /*----------------WE DOINGS--------------*/
+.we-doings {
+  padding-bottom: 94px;
+}
 
 .we-doings-title {
   font-weight: 700;
@@ -225,6 +253,16 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+}
+
+.we-doings-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.we-doings-item:not(:last-child) {
+  margin-right: 30px;
+  /*flex-basis: calc(100% / 3 - 30px);*/
 }
 
 /*-----------------TEAM------------------*/
@@ -269,6 +307,7 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  padding: 22, 6, 22, 6;
 }
 
 .filter-btn:hover,
